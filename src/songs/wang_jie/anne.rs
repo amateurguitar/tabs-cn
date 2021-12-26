@@ -69,7 +69,75 @@ pub fn new_tab() -> Tab {
                     guitar [ "Am(5)" 1 ]
                 }
             ]
+            verse Verse [
+                {
+                    chord [ "6-" 1]
+                    guitar [ "Am" 1 ]
+                }
+                {
+                    chord [ "2-7" 1]
+                    guitar [ "Dm7" 1 ]
+                }
+                {
+                    chord [ "5.7" 1]
+                    guitar [ "G7" 1 ]
+                }
+                {
+                    chord [ "1" 1]
+                    guitar [ "C" 1 ]
+                }
+                {
+                    chord [ "4" 1]
+                    guitar [ "F" 1 ]
+                }
+                {
+                    chord [ "6-" 1]
+                    guitar [ "Am" 1 ]
+                }
+                {
+                    chord [ "7" 1]
+                    guitar [ "B7" 1 ]
+                }
+                {
+                    chord [ "3.7" 1]
+                    guitar [ "E7" 1 ]
+                }
+            ]
+            chorus Chorus [
+                {
+                    chord [ "6-" 1 ]
+                    guitar [ "Am" 1 ]
+                }
+                {
+                    chord [ "2-7" 1]
+                    guitar [ "Dm7" 1 ]
+                }
+                {
+                    chord [ "5.7" 1]
+                    guitar [ "G7" 1 ]
+                }
+                {
+                    chord [ "1" 1]
+                    guitar [ "C" 1 ]
+                }
+                {
+                    chord [ "6-" 1 ]
+                    guitar [ "Am" 1 ]
+                }
+                {
+                    chord [ "4" 1]
+                    guitar [ "F" 1 ]
+                }
+                {
+                    chord [ "3.7" 1]
+                    guitar [ "E7" 1 ]
+                }
+                {
+                    chord [ "6-" 1 ]
+                    guitar [ "Am" 1 ]
+                }
+            ]
         ]
-        Form: intro
+        Form: intro verse verse chorus
     }
 }
