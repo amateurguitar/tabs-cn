@@ -99,8 +99,8 @@ pub fn new_tab() -> Tab {
                     guitar [ "B7" 1 ]
                 }
                 {
-                    chord [ "3.7" 1]
-                    guitar [ "E7" 1 ]
+                    chord [ "3.7" 1 @ 1 ; "6-" 1 @ 2 ]
+                    guitar [ "E7" 1 @ 1 ; "Am" 1 @ 2 ]
                 }
             ]
             chorus Chorus [
@@ -137,7 +137,13 @@ pub fn new_tab() -> Tab {
                     guitar [ "Am" 1 ]
                 }
             ]
+            outro Outro [
+                {
+                    chord [ "6-" 1]
+                    guitar [ "Am(5)" 1 ]
+                }
+            ]
         ]
-        Form: intro verse verse chorus
+        Form: intro verse verse chorus outro
     }
 }
