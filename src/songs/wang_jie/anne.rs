@@ -1,7 +1,8 @@
 #!/usr/bin/env rust-script
 //! ```cargo
 //! [dependencies]
-//! notation_tab = "0.3.0"
+//! # notation_tab = "0.3.0"
+//! notation_tab = { version = "0.3.0", path = "../../../../../../win/projects/notation-fun/notation/crates/notation_tab" }
 //! ```
 
 use notation_tab::prelude::*;
@@ -34,73 +35,81 @@ pub fn new_tab() -> Tab {
                 $duration = _1
                 "Am" Shape ( 0 0 2 2 1 0 )
                 "F" Shape ( 1 3 3 2 1 1 )
-                "Am(5)" Shape ( 5 7 7 5 5 5 )
+                "Am;5" Shape ( 0 2 2 0 0 0 ) +5
                 "Dm7" Shape ( _ _ 0 2 1 1 )
+                "Dm;solo" Shape ( _ _ 0 7 6 10 )
                 "G7" Shape ( 3 2 0 0 0 1 )
                 "C" Shape ( 0 3 2 0 1 0 )
                 "B7" Shape ( _ 2 1 2 0 2 )
                 "E7" Shape ( 0 2 2 1 3 0 )
                 $duration = _1_2
                 "G,F"
-                "G" Shape ( 3 5 5 4 3 3 )
-                "F" Shape ( 1 3 3 2 1 1 ) |
+                "G" Shape ( 0 2 2 1 0 0 ) +3
+                "F" Shape ( 0 2 2 1 0 0 ) +1 |
                 $duration = _1_8
-                "6-1" Pick [ 6 3 2 1 2 3 ]
-                "5-1" Pick [ 5 3 2 1 2 3 ]
-                "5-2" Pick [ 5 4 3 2 3 4 ]
-                "4-1" Pick [ 4 3 2 1 2 3 ]
+                "intro:1" Pick [ (5 4 3 2 1) 3 2 3 5 1@8 1@7 1@5 ] |
+                "intro:2" Pick [ (6 1) 3 2 3 (6 1) 3 2 3 ] |
+                "intro:3" Pick [ 4 1 1 1 1 1@8 1@7 1@8 ] |
+                "intro:4" Pick [ 1 3 2 3 (5 4 3 2 1) 3 2 3 ] |
+                "5-1" Pick [ 5 4 2 3 1 3, 2, 4, 1, 3, 2, ] |
+                "4-1" Pick [ 4 3 2 3 1 3 4, 1, 3, 2, ] |
+                "6-1" Pick [ 6 4 2 3 1 3, 2, 4, 1, 3, 2, ] |
+                "5-2" Pick [ 5 4 1 2, 3, 4 3 1 2, 3, ] |
+                "4-2" Pick [ 4 3 2 3 1 3, 2, 4, 1, 3, 2, ] |
+                "6-2" Pick [ 6 4 2 3 1 2 2@0 3 ] |
             ]}
         ]
         Sections: [
             intro Intro [
                 {
                     chord [ "6-" 1]
-                    guitar [ "Am" 1 ]
+                    guitar [ "Am" 1 ; "intro:1" | ]
                 }
                 {
                     chord [ "5,4" | ]
-                    guitar [ "G,F" | ]
+                    guitar [ "G,F" | ; "intro:2" | ]
                 }
                 {
-                    chord [ "2-7" | ]
+                    chord [ "2-7" 1 ]
+                    guitar [ "Dm;solo" 1 ; "intro:3" | ]
                 }
                 {
                     chord [ "6-" 1]
-                    guitar [ "Am(5)" 1 ]
+                    guitar [ "Am;5" 1 ; "intro:4" | ]
                 }
             ]
             verse Verse [
                 {
                     chord [ "6-" 1]
-                    guitar [ "Am" 1 ]
+                    guitar [ "Am" 1 ; "5-1" | ]
                 }
                 {
                     chord [ "2-7" 1]
-                    guitar [ "Dm7" 1 ]
+                    guitar [ "Dm7" 1 ; "4-1" | ]
                 }
                 {
                     chord [ "5.7" 1]
-                    guitar [ "G7" 1 ]
+                    guitar [ "G7" 1 ; "6-1" | ]
                 }
                 {
                     chord [ "1" 1]
-                    guitar [ "C" 1 ]
+                    guitar [ "C" 1 ; "5-2" | ]
                 }
                 {
                     chord [ "4" 1]
-                    guitar [ "F" 1 ]
+                    guitar [ "F" 1 ; "4-2" | ]
                 }
                 {
                     chord [ "6-" 1]
-                    guitar [ "Am" 1 ]
+                    guitar [ "Am" 1 ; "5-1" | ]
                 }
                 {
                     chord [ "7" 1]
-                    guitar [ "B7" 1 ]
+                    guitar [ "B7" 1 ; "5-1" | ]
                 }
                 {
                     chord [ "3.7" 1 @ 1 ; "6-" 1 @ 2 ]
-                    guitar [ "E7" 1 @ 1 ; "Am" 1 @ 2 ]
+                    guitar [ "E7" 1 @ 1 ; "6-2" | @ 1; "Am" 1 @ 2 ; "5-1" | @ 2 ]
                 }
             ]
             chorus Chorus [
@@ -140,7 +149,7 @@ pub fn new_tab() -> Tab {
             outro Outro [
                 {
                     chord [ "6-" 1]
-                    guitar [ "Am(5)" 1 ]
+                    guitar [ "Am;5" 1 ]
                 }
             ]
         ]
