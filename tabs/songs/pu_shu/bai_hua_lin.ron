@@ -26,7 +26,7 @@
                             Major3nd,
                             Perfect5th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Dotted(Half),
                 )),// [2]
@@ -38,7 +38,7 @@
                             Major3nd,
                             Perfect5th,
                         ),
-                        base: Some(Major3nd),
+                        bass: Some(Major3nd),
                     ),
                     Dotted(Half),
                 )),// [4]
@@ -50,7 +50,7 @@
                             Minor3nd,
                             Perfect5th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Dotted(Half),
                 )),// [6]
@@ -62,7 +62,7 @@
                             Minor3nd,
                             Diminished5th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Dotted(Half),
                 )),// [8]
@@ -75,7 +75,7 @@
                             Perfect5th,
                             Minor7th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Dotted(Half),
                 )),// [10]
@@ -87,7 +87,7 @@
                             Major3nd,
                             Perfect5th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Dotted(Half),
                 )),// [12]
@@ -99,7 +99,7 @@
                             Minor3nd,
                             Perfect5th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Dotted(Half),
                 )),// [14]
@@ -111,7 +111,7 @@
                             Major3nd,
                             Perfect5th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Dotted(Half),
                 )),// [16]
@@ -127,7 +127,7 @@
                             Minor3nd,
                             Perfect5th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Triplet(Half),
                 )),// [19]
@@ -139,7 +139,7 @@
                             Perfect5th,
                             Minor7th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Simple(Half),
                 )),// [20]
@@ -152,7 +152,7 @@
                             Perfect5th,
                             Minor7th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Simple(Half),
                 )),// [22]
@@ -163,7 +163,7 @@
                             Minor3nd,
                             Perfect5th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Simple(Half),
                 )),
@@ -228,6 +228,7 @@
                 Mark("Em"),// [2]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(0),
                             Some(0),
@@ -250,6 +251,7 @@
                 Mark("Adim"),// [4]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(0),
                             Some(1),
@@ -272,6 +274,7 @@
                 Mark("B7"),// [6]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(2),
                             Some(4),
@@ -294,6 +297,7 @@
                 Mark("B7_1"),// [8]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(2),
                             Some(0),
@@ -316,6 +320,7 @@
                 Mark("G"),// [10]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(3),
                             Some(0),
@@ -338,6 +343,7 @@
                 Mark("E"),// [12]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(0),
                             Some(0),
@@ -360,6 +366,7 @@
                 Mark("Am"),// [14]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(0),
                             Some(1),
@@ -382,6 +389,7 @@
                 Mark("G/B"),// [16]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(3),
                             Some(0),
@@ -404,6 +412,7 @@
                 Mark("D"),// [18]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(2),
                             Some(3),

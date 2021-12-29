@@ -34,22 +34,21 @@ pub fn new_tab() -> Tab {
                 Fretboard
                 $duration = _1
                 "Am" Shape ( 0 0 2 2 1 0 )
-                "F" Shape ( 1 3 3 2 1 1 )
+                "F" Shape ( 0 2 2 1 0 0 ) +1
                 "Am;5" Shape ( 0 2 2 0 0 0 ) +5
                 "Dm7" Shape ( _ _ 0 2 1 1 )
-                "Dm;solo" Shape ( _ _ 0 7 6 10 )
                 "G7" Shape ( 3 2 0 0 0 1 )
                 "C" Shape ( 0 3 2 0 1 0 )
                 "B7" Shape ( _ 2 1 2 0 2 )
                 "E7" Shape ( 0 2 2 1 3 0 )
                 $duration = _1_2
                 "G,F"
-                "G" Shape ( 0 2 2 1 0 0 ) +3
-                "F" Shape ( 0 2 2 1 0 0 ) +1 |
+                "G;1/2" Shape ( 0 2 2 1 0 0 ) +3
+                "F;1/2" Shape ( 0 2 2 1 0 0 ) +1 |
                 $duration = _1_8
                 "intro:1" Pick [ (5 4 3 2 1) 3 2 3 5 1@8 1@7 1@5 ] |
                 "intro:2" Pick [ (6 1) 3 2 3 (6 1) 3 2 3 ] |
-                "intro:3" Pick [ 4 1 1 1 1 1@8 1@7 1@8 ] |
+                "intro:3" Pick [ 4@0 1@10 1@10 1@10 1@10 1@8 1@7 1@8 ] |
                 "intro:4" Pick [ 1 3 2 3 (5 4 3 2 1) 3 2 3 ] |
                 "5-1" Pick [ 5 4 2 3 1 3, 2, 4, 1, 3, 2, ] |
                 "4-1" Pick [ 4 3 2 3 1 3 4, 1, 3, 2, ] |
@@ -71,7 +70,7 @@ pub fn new_tab() -> Tab {
                 }
                 {
                     chord [ "2-7" 1 ]
-                    guitar [ "Dm;solo" 1 ; "intro:3" | ]
+                    guitar [ "Dm7" 1 ; "intro:3" | ]
                 }
                 {
                     chord [ "6-" 1]

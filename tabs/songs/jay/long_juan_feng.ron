@@ -26,7 +26,7 @@
                             Major3nd,
                             Perfect5th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Simple(Whole),
                 )),// [2]
@@ -38,7 +38,7 @@
                             Major3nd,
                             Perfect5th,
                         ),
-                        base: Some(Perfect4th),
+                        bass: Some(Perfect4th),
                     ),
                     Simple(Whole),
                 )),// [4]
@@ -50,7 +50,7 @@
                             Major3nd,
                             Perfect5th,
                         ),
-                        base: Some(Perfect5th),
+                        bass: Some(Perfect5th),
                     ),
                     Simple(Whole),
                 )),// [6]
@@ -63,7 +63,7 @@
                             Perfect5th,
                             Major2nd,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Simple(Whole),
                 )),// [8]
@@ -76,7 +76,7 @@
                             Perfect5th,
                             Minor7th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Simple(Whole),
                 )),// [10]
@@ -89,7 +89,7 @@
                             Perfect5th,
                             Minor7th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Simple(Whole),
                 )),// [12]
@@ -102,7 +102,7 @@
                             Perfect5th,
                             Major7th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Simple(Whole),
                 )),// [14]
@@ -114,7 +114,7 @@
                             Major3nd,
                             Perfect5th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Simple(Whole),
                 )),// [16]
@@ -127,7 +127,7 @@
                             Diminished5th,
                             Diminished7th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Simple(Whole),
                 )),// [18]
@@ -140,7 +140,7 @@
                             Perfect5th,
                             Minor7th,
                         ),
-                        base: None,
+                        bass: None,
                     ),
                     Simple(Whole),
                 )),// [20]
@@ -156,7 +156,7 @@
                             Major3nd,
                             Perfect5th,
                         ),
-                        base: Some(Perfect4th),
+                        bass: Some(Perfect4th),
                     ),
                     Simple(Half),
                 )),// [23]
@@ -167,7 +167,7 @@
                             Major3nd,
                             Perfect5th,
                         ),
-                        base: Some(Major2nd),
+                        bass: Some(Major2nd),
                     ),
                     Simple(Half),
                 )),
@@ -232,6 +232,7 @@
                 Mark("G"),// [2]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(3),
                             Some(0),
@@ -254,6 +255,7 @@
                 Mark("Em7"),// [4]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(0),
                             Some(0),
@@ -276,6 +278,7 @@
                 Mark("G/C"),// [6]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(0),
                             Some(0),
@@ -298,6 +301,7 @@
                 Mark("G/D"),// [8]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(0),
                             Some(0),
@@ -320,6 +324,7 @@
                 Mark("Gadd9"),// [10]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             None,
                             Some(0),
@@ -342,6 +347,7 @@
                 Mark("Am7"),// [12]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(0),
                             Some(1),
@@ -364,6 +370,7 @@
                 Mark("D"),// [14]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(2),
                             Some(3),
@@ -386,6 +393,7 @@
                 Mark("Cmaj7"),// [16]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(0),
                             Some(0),
@@ -408,6 +416,7 @@
                 Mark("Bm7"),// [18]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(2),
                             Some(3),
@@ -430,6 +439,7 @@
                 Mark("bEdim7"),// [20]
                 Fretted6(Shape(
                     (
+                        barre: None,
                         frets: (
                             Some(2),
                             Some(1),
