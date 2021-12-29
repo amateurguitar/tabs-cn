@@ -1,8 +1,7 @@
 #!/usr/bin/env rust-script
 //! ```cargo
 //! [dependencies]
-//! # notation_tab = "0.3.0"
-//! notation_tab = { version = "0.3.0", path = "../../../../../../win/projects/notation-fun/notation/crates/notation_tab" }
+//! notation_tab = "0.3.1"
 //! ```
 
 use notation_tab::prelude::*;
