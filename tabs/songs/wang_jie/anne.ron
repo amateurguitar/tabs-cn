@@ -4215,6 +4215,7 @@
             "verse",// [1]
             "verse",// [2]
             "chorus",// [3]
+            "chorus",// [4]
             "outro",
         ],
     ),

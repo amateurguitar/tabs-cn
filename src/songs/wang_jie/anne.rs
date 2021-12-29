@@ -232,6 +232,6 @@ pub fn new_tab() -> Tab {
                 }
             ]
         ]
-        Form: intro verse verse chorus outro
+        Form: intro verse verse chorus chorus outro
     }
 }
