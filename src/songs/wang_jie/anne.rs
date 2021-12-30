@@ -85,6 +85,9 @@ pub fn new_tab() -> Tab {
                 "c:8" Word [ "你"*** ] |
             ]}
             {vocal Vocal [
+                $key = A
+                $scale = Minor
+                $duration = _1_8
                 "v:1" Tone [ _* ^1, ^1, 7, ^1, @ ^1*+ 6, 7, ] |
                 "v:2" Tone [ ^1 7, 4, @ 4** _ 7, ^1, ] |
                 "v:3" Tone [ ^2*+ ^1, 7, 6 5* 2, 4, ] |
