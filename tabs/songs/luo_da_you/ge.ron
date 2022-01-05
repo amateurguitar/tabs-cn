@@ -66,11 +66,25 @@
                     ),
                     Simple(Whole),
                 )),// [8]
+                Mark("A7"),// [9]
+                Core(Chord(
+                    (
+                        root: So,
+                        intervals: Tetrad(
+                            Major3nd,
+                            Perfect5th,
+                            Minor7th,
+                        ),
+                        bass: None,
+                    ),
+                    Simple(Whole),
+                )),// [10]
+                Mark("|"),// [11]
                 Extra(
                     "dsl::context::duration",
                     "_1_2",
-                ),// [9]
-                Mark("A,A7"),// [10]
+                ),// [12]
+                Mark("A,A7"),// [13]
                 Core(Chord(
                     (
                         root: So,
@@ -81,7 +95,7 @@
                         bass: None,
                     ),
                     Simple(Half),
-                )),// [11]
+                )),// [14]
                 Core(Chord(
                     (
                         root: So,
@@ -93,9 +107,9 @@
                         bass: None,
                     ),
                     Simple(Half),
-                )),// [12]
-                Mark("|"),// [13]
-                Mark("D,#Fm"),// [14]
+                )),// [15]
+                Mark("|"),// [16]
+                Mark("D,#Fm"),// [17]
                 Core(Chord(
                     (
                         root: Do,
@@ -106,7 +120,7 @@
                         bass: None,
                     ),
                     Simple(Half),
-                )),// [15]
+                )),// [18]
                 Core(Chord(
                     (
                         root: Mi,
@@ -117,9 +131,9 @@
                         bass: None,
                     ),
                     Simple(Half),
-                )),// [16]
-                Mark("|"),// [17]
-                Mark("Em,A"),// [18]
+                )),// [19]
+                Mark("|"),// [20]
+                Mark("Em,A"),// [21]
                 Core(Chord(
                     (
                         root: Re,
@@ -130,7 +144,7 @@
                         bass: None,
                     ),
                     Simple(Half),
-                )),// [19]
+                )),// [22]
                 Core(Chord(
                     (
                         root: So,
@@ -141,9 +155,9 @@
                         bass: None,
                     ),
                     Simple(Half),
-                )),// [20]
-                Mark("|"),// [21]
-                Mark("D,Dmaj7,D7"),// [22]
+                )),// [23]
+                Mark("|"),// [24]
+                Mark("D,Dmaj7,D7"),// [25]
                 Core(Chord(
                     (
                         root: Do,
@@ -154,7 +168,7 @@
                         bass: None,
                     ),
                     Simple(Half),
-                )),// [23]
+                )),// [26]
                 Core(Chord(
                     (
                         root: Do,
@@ -166,7 +180,7 @@
                         bass: None,
                     ),
                     Simple(Quarter),
-                )),// [24]
+                )),// [27]
                 Core(Chord(
                     (
                         root: Do,
@@ -178,13 +192,13 @@
                         bass: None,
                     ),
                     Simple(Quarter),
-                )),// [25]
-                Mark("|"),// [26]
+                )),// [28]
+                Mark("|"),// [29]
                 Extra(
                     "dsl::context::duration",
                     "_1_4",
-                ),// [27]
-                Mark("D,G,D"),// [28]
+                ),// [30]
+                Mark("D,G,D"),// [31]
                 Core(Chord(
                     (
                         root: Do,
@@ -195,7 +209,7 @@
                         bass: None,
                     ),
                     Simple(Quarter),
-                )),// [29]
+                )),// [32]
                 Core(Chord(
                     (
                         root: Fa,
@@ -207,7 +221,7 @@
                         bass: None,
                     ),
                     Simple(Eighth),
-                )),// [30]
+                )),// [33]
                 Core(Chord(
                     (
                         root: Do,
@@ -218,7 +232,7 @@
                         bass: None,
                     ),
                     Simple(Half),
-                )),// [31]
+                )),// [34]
                 Mark("|"),
             ],
         ),// [0]
@@ -370,12 +384,36 @@
                     ),
                     Simple(Whole),
                 )),// [9]
+                Mark("A7"),// [10]
+                Fretted6(Shape(
+                    (
+                        barre: None,
+                        frets: (
+                            Some(3),
+                            Some(2),
+                            Some(2),
+                            Some(2),
+                            Some(0),
+                            Some(0),
+                        ),
+                        fingers: (
+                            None,
+                            None,
+                            None,
+                            None,
+                            None,
+                            None,
+                        ),
+                    ),
+                    Simple(Whole),
+                )),// [11]
+                Mark("|"),// [12]
                 Extra(
                     "dsl::context::duration",
                     "_1_2",
-                ),// [10]
-                Mark("A,A7"),// [11]
-                Mark("A"),// [12]
+                ),// [13]
+                Mark("A,A7"),// [14]
+                Mark("A"),// [15]
                 Fretted6(Shape(
                     (
                         barre: None,
@@ -397,8 +435,8 @@
                         ),
                     ),
                     Simple(Half),
-                )),// [13]
-                Mark("A7"),// [14]
+                )),// [16]
+                Mark("A7"),// [17]
                 Fretted6(Shape(
                     (
                         barre: None,
@@ -420,10 +458,10 @@
                         ),
                     ),
                     Simple(Half),
-                )),// [15]
-                Mark("|"),// [16]
-                Mark("D,#Fm"),// [17]
-                Mark("D"),// [18]
+                )),// [18]
+                Mark("|"),// [19]
+                Mark("D,#Fm"),// [20]
+                Mark("D"),// [21]
                 Fretted6(Shape(
                     (
                         barre: None,
@@ -445,8 +483,8 @@
                         ),
                     ),
                     Simple(Half),
-                )),// [19]
-                Mark("#Fm"),// [20]
+                )),// [22]
+                Mark("#Fm"),// [23]
                 Fretted6(Shape(
                     (
                         barre: None,
@@ -468,10 +506,10 @@
                         ),
                     ),
                     Simple(Half),
-                )),// [21]
-                Mark("|"),// [22]
-                Mark("Em,A"),// [23]
-                Mark("Em"),// [24]
+                )),// [24]
+                Mark("|"),// [25]
+                Mark("Em,A"),// [26]
+                Mark("Em"),// [27]
                 Fretted6(Shape(
                     (
                         barre: None,
@@ -493,8 +531,8 @@
                         ),
                     ),
                     Simple(Half),
-                )),// [25]
-                Mark("A"),// [26]
+                )),// [28]
+                Mark("A"),// [29]
                 Fretted6(Shape(
                     (
                         barre: None,
@@ -516,10 +554,10 @@
                         ),
                     ),
                     Simple(Half),
-                )),// [27]
-                Mark("|"),// [28]
-                Mark("D,Dmaj7,D7"),// [29]
-                Mark("D"),// [30]
+                )),// [30]
+                Mark("|"),// [31]
+                Mark("D,Dmaj7,D7"),// [32]
+                Mark("D"),// [33]
                 Fretted6(Shape(
                     (
                         barre: None,
@@ -541,8 +579,8 @@
                         ),
                     ),
                     Simple(Half),
-                )),// [31]
-                Mark("Dmaj7"),// [32]
+                )),// [34]
+                Mark("Dmaj7"),// [35]
                 Fretted6(Shape(
                     (
                         barre: None,
@@ -564,8 +602,8 @@
                         ),
                     ),
                     Simple(Quarter),
-                )),// [33]
-                Mark("D7"),// [34]
+                )),// [36]
+                Mark("D7"),// [37]
                 Fretted6(Shape(
                     (
                         barre: None,
@@ -587,14 +625,14 @@
                         ),
                     ),
                     Simple(Quarter),
-                )),// [35]
-                Mark("|"),// [36]
-                Mark("D,G,D"),// [37]
+                )),// [38]
+                Mark("|"),// [39]
+                Mark("D,G,D"),// [40]
                 Extra(
                     "dsl::context::duration",
                     "D_1_4",
-                ),// [38]
-                Mark("D"),// [39]
+                ),// [41]
+                Mark("D"),// [42]
                 Fretted6(Shape(
                     (
                         barre: None,
@@ -616,12 +654,12 @@
                         ),
                     ),
                     Dotted(Quarter),
-                )),// [40]
+                )),// [43]
                 Extra(
                     "dsl::context::duration",
                     "_1_4",
-                ),// [41]
-                Mark("G"),// [42]
+                ),// [44]
+                Mark("G"),// [45]
                 Fretted6(Shape(
                     (
                         barre: None,
@@ -643,8 +681,8 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [43]
-                Mark("D"),// [44]
+                )),// [46]
+                Mark("D"),// [47]
                 Fretted6(Shape(
                     (
                         barre: None,
@@ -666,55 +704,16 @@
                         ),
                     ),
                     Simple(Half),
-                )),// [45]
-                Mark("|"),// [46]
+                )),// [48]
+                Mark("|"),// [49]
                 Extra(
                     "dsl::context::duration",
                     "_1_8",
-                ),// [47]
-                Mark("4-6"),// [48]
+                ),// [50]
+                Mark("4-6"),// [51]
                 Fretted6(Pick(
                     Single((
                         string: 4,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [49]
-                Fretted6(Pick(
-                    Single((
-                        string: 3,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [50]
-                Fretted6(Pick(
-                    Double(
-                        (
-                            string: 2,
-                            fret: None,
-                            fret_finger: None,
-                            pick_finger: None,
-                            pick_direction: None,
-                        ),
-                        (
-                            string: 1,
-                            fret: None,
-                            fret_finger: None,
-                            pick_finger: None,
-                            pick_direction: None,
-                        ),
-                    ),
-                    Simple(Eighth),
-                )),// [51]
-                Fretted6(Pick(
-                    Single((
-                        string: 3,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -724,7 +723,7 @@
                 )),// [52]
                 Fretted6(Pick(
                     Single((
-                        string: 6,
+                        string: 3,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -733,16 +732,6 @@
                     Simple(Eighth),
                 )),// [53]
                 Fretted6(Pick(
-                    Single((
-                        string: 3,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [54]
-                Fretted6(Pick(
                     Double(
                         (
                             string: 2,
@@ -760,7 +749,7 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [55]
+                )),// [54]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -770,9 +759,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [56]
-                Mark("|"),// [57]
-                Mark("6-5"),// [58]
+                )),// [55]
                 Fretted6(Pick(
                     Single((
                         string: 6,
@@ -782,7 +769,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [59]
+                )),// [56]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -792,7 +779,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [60]
+                )),// [57]
                 Fretted6(Pick(
                     Double(
                         (
@@ -811,10 +798,22 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [61]
+                )),// [58]
                 Fretted6(Pick(
                     Single((
                         string: 3,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
+                )),// [59]
+                Mark("|"),// [60]
+                Mark("6-5"),// [61]
+                Fretted6(Pick(
+                    Single((
+                        string: 6,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -824,7 +823,7 @@
                 )),// [62]
                 Fretted6(Pick(
                     Single((
-                        string: 5,
+                        string: 3,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -833,16 +832,6 @@
                     Simple(Eighth),
                 )),// [63]
                 Fretted6(Pick(
-                    Single((
-                        string: 3,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [64]
-                Fretted6(Pick(
                     Double(
                         (
                             string: 2,
@@ -860,10 +849,20 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [65]
+                )),// [64]
                 Fretted6(Pick(
                     Single((
                         string: 3,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
+                )),// [65]
+                Fretted6(Pick(
+                    Single((
+                        string: 5,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -871,18 +870,6 @@
                     )),
                     Simple(Eighth),
                 )),// [66]
-                Mark("|"),// [67]
-                Mark("6-6"),// [68]
-                Fretted6(Pick(
-                    Single((
-                        string: 6,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [69]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -892,7 +879,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [70]
+                )),// [67]
                 Fretted6(Pick(
                     Double(
                         (
@@ -911,10 +898,22 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [71]
+                )),// [68]
                 Fretted6(Pick(
                     Single((
                         string: 3,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
+                )),// [69]
+                Mark("|"),// [70]
+                Mark("6-6"),// [71]
+                Fretted6(Pick(
+                    Single((
+                        string: 6,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -924,16 +923,6 @@
                 )),// [72]
                 Fretted6(Pick(
                     Single((
-                        string: 6,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [73]
-                Fretted6(Pick(
-                    Single((
                         string: 3,
                         fret: None,
                         fret_finger: None,
@@ -941,7 +930,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [74]
+                )),// [73]
                 Fretted6(Pick(
                     Double(
                         (
@@ -960,7 +949,7 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [75]
+                )),// [74]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -970,9 +959,58 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
+                )),// [75]
+                Fretted6(Pick(
+                    Single((
+                        string: 6,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
                 )),// [76]
-                Mark("|"),// [77]
-                Mark("4"),// [78]
+                Fretted6(Pick(
+                    Single((
+                        string: 3,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
+                )),// [77]
+                Fretted6(Pick(
+                    Double(
+                        (
+                            string: 2,
+                            fret: None,
+                            fret_finger: None,
+                            pick_finger: None,
+                            pick_direction: None,
+                        ),
+                        (
+                            string: 1,
+                            fret: None,
+                            fret_finger: None,
+                            pick_finger: None,
+                            pick_direction: None,
+                        ),
+                    ),
+                    Simple(Eighth),
+                )),// [78]
+                Fretted6(Pick(
+                    Single((
+                        string: 3,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
+                )),// [79]
+                Mark("|"),// [80]
+                Mark("4"),// [81]
                 Fretted6(Pick(
                     Single((
                         string: 4,
@@ -982,59 +1020,20 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [79]
-                Fretted6(Pick(
-                    Single((
-                        string: 3,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [80]
-                Fretted6(Pick(
-                    Single((
-                        string: 2,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [81]
-                Fretted6(Pick(
-                    Single((
-                        string: 3,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
                 )),// [82]
                 Fretted6(Pick(
-                    Double(
-                        (
-                            string: 2,
-                            fret: None,
-                            fret_finger: None,
-                            pick_finger: None,
-                            pick_direction: None,
-                        ),
-                        (
-                            string: 1,
-                            fret: None,
-                            fret_finger: None,
-                            pick_finger: None,
-                            pick_direction: None,
-                        ),
-                    ),
+                    Single((
+                        string: 3,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
                     Simple(Eighth),
                 )),// [83]
                 Fretted6(Pick(
                     Single((
-                        string: 3,
+                        string: 2,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -1044,7 +1043,7 @@
                 )),// [84]
                 Fretted6(Pick(
                     Single((
-                        string: 2,
+                        string: 3,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -1052,6 +1051,25 @@
                     )),
                     Simple(Eighth),
                 )),// [85]
+                Fretted6(Pick(
+                    Double(
+                        (
+                            string: 2,
+                            fret: None,
+                            fret_finger: None,
+                            pick_finger: None,
+                            pick_direction: None,
+                        ),
+                        (
+                            string: 1,
+                            fret: None,
+                            fret_finger: None,
+                            pick_finger: None,
+                            pick_direction: None,
+                        ),
+                    ),
+                    Simple(Eighth),
+                )),// [86]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -1061,9 +1079,29 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [86]
-                Mark("|"),// [87]
-                Mark("i:1"),// [88]
+                )),// [87]
+                Fretted6(Pick(
+                    Single((
+                        string: 2,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
+                )),// [88]
+                Fretted6(Pick(
+                    Single((
+                        string: 3,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
+                )),// [89]
+                Mark("|"),// [90]
+                Mark("i:1"),// [91]
                 Fretted6(Pick(
                     Single((
                         string: 4,
@@ -1073,7 +1111,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [89]
+                )),// [92]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -1083,7 +1121,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [90]
+                )),// [93]
                 Fretted6(Pick(
                     Single((
                         string: 2,
@@ -1093,7 +1131,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [91]
+                )),// [94]
                 Fretted6(Pick(
                     Single((
                         string: 2,
@@ -1103,7 +1141,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [92]
+                )),// [95]
                 Fretted6(Pick(
                     Double(
                         (
@@ -1122,7 +1160,7 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [93]
+                )),// [96]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -1132,7 +1170,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [94]
+                )),// [97]
                 Fretted6(Pick(
                     Single((
                         string: 1,
@@ -1142,7 +1180,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [95]
+                )),// [98]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -1152,9 +1190,9 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [96]
-                Mark("|"),// [97]
-                Mark("i:2"),// [98]
+                )),// [99]
+                Mark("|"),// [100]
+                Mark("i:2"),// [101]
                 Fretted6(Pick(
                     Tetra(
                         (
@@ -1187,7 +1225,7 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [99]
+                )),// [102]
                 Fretted6(Pick(
                     Single((
                         string: 1,
@@ -1197,7 +1235,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [100]
+                )),// [103]
                 Fretted6(Pick(
                     Single((
                         string: 1,
@@ -1207,7 +1245,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [101]
+                )),// [104]
                 Fretted6(Pick(
                     Single((
                         string: 1,
@@ -1217,7 +1255,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [102]
+                )),// [105]
                 Fretted6(Pick(
                     Double(
                         (
@@ -1236,7 +1274,7 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [103]
+                )),// [106]
                 Fretted6(Pick(
                     Single((
                         string: 2,
@@ -1246,7 +1284,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [104]
+                )),// [107]
                 Fretted6(Pick(
                     Single((
                         string: 2,
@@ -1256,7 +1294,7 @@
                         pick_direction: None,
                     )),
                     Simple(ThirtySecondth),
-                )),// [105]
+                )),// [108]
                 Fretted6(Pick(
                     Single((
                         string: 2,
@@ -1266,7 +1304,7 @@
                         pick_direction: None,
                     )),
                     Simple(ThirtySecondth),
-                )),// [106]
+                )),// [109]
                 Fretted6(Pick(
                     Single((
                         string: 2,
@@ -1276,7 +1314,7 @@
                         pick_direction: None,
                     )),
                     Simple(Sixteenth),
-                )),// [107]
+                )),// [110]
                 Fretted6(Pick(
                     Single((
                         string: 2,
@@ -1286,9 +1324,9 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [108]
-                Mark("|"),// [109]
-                Mark("i:3"),// [110]
+                )),// [111]
+                Mark("|"),// [112]
+                Mark("i:3"),// [113]
                 Fretted6(Pick(
                     Double(
                         (
@@ -1307,7 +1345,7 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [111]
+                )),// [114]
                 Fretted6(Pick(
                     Single((
                         string: 1,
@@ -1317,7 +1355,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [112]
+                )),// [115]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -1327,41 +1365,11 @@
                         pick_direction: None,
                     )),
                     Simple(ThirtySecondth),
-                )),// [113]
-                Fretted6(Pick(
-                    Single((
-                        string: 3,
-                        fret: Some(4),
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Dotted(Sixteenth),
-                )),// [114]
-                Fretted6(Pick(
-                    Single((
-                        string: 1,
-                        fret: Some(3),
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [115]
-                Fretted6(Pick(
-                    Single((
-                        string: 3,
-                        fret: Some(4),
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(ThirtySecondth),
                 )),// [116]
                 Fretted6(Pick(
                     Single((
                         string: 3,
-                        fret: Some(2),
+                        fret: Some(4),
                         fret_finger: None,
                         pick_finger: None,
                         pick_direction: None,
@@ -1371,7 +1379,7 @@
                 Fretted6(Pick(
                     Single((
                         string: 1,
-                        fret: Some(2),
+                        fret: Some(3),
                         fret_finger: None,
                         pick_finger: None,
                         pick_direction: None,
@@ -1381,13 +1389,43 @@
                 Fretted6(Pick(
                     Single((
                         string: 3,
+                        fret: Some(4),
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(ThirtySecondth),
+                )),// [119]
+                Fretted6(Pick(
+                    Single((
+                        string: 3,
+                        fret: Some(2),
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Dotted(Sixteenth),
+                )),// [120]
+                Fretted6(Pick(
+                    Single((
+                        string: 1,
+                        fret: Some(2),
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
+                )),// [121]
+                Fretted6(Pick(
+                    Single((
+                        string: 3,
                         fret: Some(0),
                         fret_finger: None,
                         pick_finger: None,
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [119]
+                )),// [122]
                 Fretted6(Pick(
                     Double(
                         (
@@ -1406,9 +1444,9 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [120]
-                Mark("|"),// [121]
-                Mark("i:4_1"),// [122]
+                )),// [123]
+                Mark("|"),// [124]
+                Mark("i:4_1"),// [125]
                 Fretted6(Pick(
                     Single((
                         string: 4,
@@ -1418,7 +1456,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [123]
+                )),// [126]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -1428,7 +1466,7 @@
                         pick_direction: None,
                     )),
                     Simple(Sixteenth),
-                )),// [124]
+                )),// [127]
                 Fretted6(Pick(
                     Single((
                         string: 2,
@@ -1438,7 +1476,7 @@
                         pick_direction: None,
                     )),
                     Simple(Sixteenth),
-                )),// [125]
+                )),// [128]
                 Fretted6(Pick(
                     Single((
                         string: 1,
@@ -1448,7 +1486,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [126]
+                )),// [129]
                 Fretted6(Pick(
                     Single((
                         string: 1,
@@ -1458,7 +1496,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [127]
+                )),// [130]
                 Fretted6(Pick(
                     Single((
                         string: 1,
@@ -1468,7 +1506,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [128]
+                )),// [131]
                 Fretted6(Pick(
                     Single((
                         string: 4,
@@ -1478,7 +1516,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [129]
+                )),// [132]
                 Fretted6(Pick(
                     Single((
                         string: 2,
@@ -1488,22 +1526,10 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [130]
+                )),// [133]
                 Fretted6(Pick(
                     Single((
                         string: 3,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [131]
-                Mark("|"),// [132]
-                Mark("i:4_2"),// [133]
-                Fretted6(Pick(
-                    Single((
-                        string: 4,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -1511,6 +1537,18 @@
                     )),
                     Simple(Eighth),
                 )),// [134]
+                Mark("|"),// [135]
+                Mark("i:4_2"),// [136]
+                Fretted6(Pick(
+                    Single((
+                        string: 4,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
+                )),// [137]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -1520,7 +1558,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [135]
+                )),// [138]
                 Fretted6(Pick(
                     Single((
                         string: 2,
@@ -1530,7 +1568,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [136]
+                )),// [139]
                 Fretted6(Pick(
                     Single((
                         string: 1,
@@ -1540,11 +1578,11 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [137]
+                )),// [140]
                 Extra(
                     "dsl::context::duration",
                     "_1_4",
-                ),// [138]
+                ),// [141]
                 Fretted6(Pick(
                     Tetra(
                         (
@@ -1577,11 +1615,11 @@
                         ),
                     ),
                     Simple(Quarter),
-                )),// [139]
+                )),// [142]
                 Extra(
                     "dsl::context::duration",
                     "_1_8",
-                ),// [140]
+                ),// [143]
                 Fretted6(Pick(
                     Triple(
                         (
@@ -1607,19 +1645,7 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [141]
-                Fretted6(Pick(
-                    Single((
-                        string: 4,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [142]
-                Mark("|"),// [143]
-                Mark("i:4_3"),// [144]
+                )),// [144]
                 Fretted6(Pick(
                     Single((
                         string: 4,
@@ -1630,6 +1656,18 @@
                     )),
                     Simple(Eighth),
                 )),// [145]
+                Mark("|"),// [146]
+                Mark("i:4_3"),// [147]
+                Fretted6(Pick(
+                    Single((
+                        string: 4,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
+                )),// [148]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -1639,7 +1677,7 @@
                         pick_direction: None,
                     )),
                     Simple(Sixteenth),
-                )),// [146]
+                )),// [149]
                 Fretted6(Pick(
                     Single((
                         string: 2,
@@ -1649,7 +1687,7 @@
                         pick_direction: None,
                     )),
                     Simple(Sixteenth),
-                )),// [147]
+                )),// [150]
                 Fretted6(Pick(
                     Single((
                         string: 1,
@@ -1659,7 +1697,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [148]
+                )),// [151]
                 Fretted6(Pick(
                     Double(
                         (
@@ -1678,11 +1716,11 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [149]
+                )),// [152]
                 Extra(
                     "dsl::context::duration",
                     "_1_2",
-                ),// [150]
+                ),// [153]
                 Fretted6(Pick(
                     Tetra(
                         (
@@ -1715,13 +1753,13 @@
                         ),
                     ),
                     Simple(Half),
-                )),// [151]
-                Mark("|"),// [152]
+                )),// [154]
+                Mark("|"),// [155]
                 Extra(
                     "dsl::context::duration",
                     "_1_8",
-                ),// [153]
-                Mark("v:4_2"),// [154]
+                ),// [156]
+                Mark("v:4_2"),// [157]
                 Fretted6(Pick(
                     Single((
                         string: 4,
@@ -1731,66 +1769,37 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [155]
-                Fretted6(Pick(
-                    Single((
-                        string: 3,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [156]
-                Fretted6(Pick(
-                    Double(
-                        (
-                            string: 2,
-                            fret: None,
-                            fret_finger: None,
-                            pick_finger: None,
-                            pick_direction: None,
-                        ),
-                        (
-                            string: 1,
-                            fret: None,
-                            fret_finger: None,
-                            pick_finger: None,
-                            pick_direction: None,
-                        ),
-                    ),
-                    Simple(Eighth),
-                )),// [157]
-                Fretted6(Pick(
-                    Single((
-                        string: 3,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
                 )),// [158]
                 Fretted6(Pick(
-                    Double(
-                        (
-                            string: 2,
-                            fret: None,
-                            fret_finger: None,
-                            pick_finger: None,
-                            pick_direction: None,
-                        ),
-                        (
-                            string: 1,
-                            fret: None,
-                            fret_finger: None,
-                            pick_finger: None,
-                            pick_direction: None,
-                        ),
-                    ),
+                    Single((
+                        string: 3,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
                     Simple(Eighth),
                 )),// [159]
                 Fretted6(Pick(
+                    Double(
+                        (
+                            string: 2,
+                            fret: None,
+                            fret_finger: None,
+                            pick_finger: None,
+                            pick_direction: None,
+                        ),
+                        (
+                            string: 1,
+                            fret: None,
+                            fret_finger: None,
+                            pick_finger: None,
+                            pick_direction: None,
+                        ),
+                    ),
+                    Simple(Eighth),
+                )),// [160]
+                Fretted6(Pick(
                     Single((
                         string: 3,
                         fret: None,
@@ -1799,7 +1808,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [160]
+                )),// [161]
                 Fretted6(Pick(
                     Double(
                         (
@@ -1818,7 +1827,7 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [161]
+                )),// [162]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -1828,9 +1837,38 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [162]
-                Mark("|"),// [163]
-                Mark("c:4"),// [164]
+                )),// [163]
+                Fretted6(Pick(
+                    Double(
+                        (
+                            string: 2,
+                            fret: None,
+                            fret_finger: None,
+                            pick_finger: None,
+                            pick_direction: None,
+                        ),
+                        (
+                            string: 1,
+                            fret: None,
+                            fret_finger: None,
+                            pick_finger: None,
+                            pick_direction: None,
+                        ),
+                    ),
+                    Simple(Eighth),
+                )),// [164]
+                Fretted6(Pick(
+                    Single((
+                        string: 3,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
+                )),// [165]
+                Mark("|"),// [166]
+                Mark("c:4"),// [167]
                 Fretted6(Pick(
                     Triple(
                         (
@@ -1856,7 +1894,7 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [165]
+                )),// [168]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -1866,7 +1904,7 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [166]
+                )),// [169]
                 Fretted6(Pick(
                     Double(
                         (
@@ -1885,7 +1923,7 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [167]
+                )),// [170]
                 Fretted6(Pick(
                     Single((
                         string: 3,
@@ -1895,11 +1933,11 @@
                         pick_direction: None,
                     )),
                     Simple(Eighth),
-                )),// [168]
+                )),// [171]
                 Extra(
                     "dsl::context::duration",
                     "_1_4",
-                ),// [169]
+                ),// [172]
                 Fretted6(Pick(
                     Tetra(
                         (
@@ -1932,11 +1970,11 @@
                         ),
                     ),
                     Simple(Quarter),
-                )),// [170]
+                )),// [173]
                 Extra(
                     "dsl::context::duration",
                     "_1_8",
-                ),// [171]
+                ),// [174]
                 Fretted6(Pick(
                     Triple(
                         (
@@ -1962,22 +2000,10 @@
                         ),
                     ),
                     Simple(Eighth),
-                )),// [172]
+                )),// [175]
                 Fretted6(Pick(
                     Single((
                         string: 4,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [173]
-                Mark("|"),// [174]
-                Mark("c:7"),// [175]
-                Fretted6(Pick(
-                    Single((
-                        string: 6,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -1985,29 +2011,11 @@
                     )),
                     Simple(Eighth),
                 )),// [176]
+                Mark("|"),// [177]
+                Mark("c:7"),// [178]
                 Fretted6(Pick(
                     Single((
-                        string: 5,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [177]
-                Fretted6(Pick(
-                    Single((
-                        string: 4,
-                        fret: None,
-                        fret_finger: None,
-                        pick_finger: None,
-                        pick_direction: None,
-                    )),
-                    Simple(Eighth),
-                )),// [178]
-                Fretted6(Pick(
-                    Single((
-                        string: 3,
+                        string: 6,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -2017,7 +2025,7 @@
                 )),// [179]
                 Fretted6(Pick(
                     Single((
-                        string: 2,
+                        string: 5,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -2027,7 +2035,7 @@
                 )),// [180]
                 Fretted6(Pick(
                     Single((
-                        string: 6,
+                        string: 4,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -2037,7 +2045,7 @@
                 )),// [181]
                 Fretted6(Pick(
                     Single((
-                        string: 4,
+                        string: 3,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -2047,7 +2055,7 @@
                 )),// [182]
                 Fretted6(Pick(
                     Single((
-                        string: 6,
+                        string: 2,
                         fret: None,
                         fret_finger: None,
                         pick_finger: None,
@@ -2055,12 +2063,42 @@
                     )),
                     Simple(Eighth),
                 )),// [183]
-                Mark("|"),// [184]
-                Mark("c:8"),// [185]
+                Fretted6(Pick(
+                    Single((
+                        string: 6,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
+                )),// [184]
+                Fretted6(Pick(
+                    Single((
+                        string: 4,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
+                )),// [185]
+                Fretted6(Pick(
+                    Single((
+                        string: 6,
+                        fret: None,
+                        fret_finger: None,
+                        pick_finger: None,
+                        pick_direction: None,
+                    )),
+                    Simple(Eighth),
+                )),// [186]
+                Mark("|"),// [187]
+                Mark("c:8"),// [188]
                 Extra(
                     "dsl::context::duration",
                     "_1_2",
-                ),// [186]
+                ),// [189]
                 Fretted6(Pick(
                     Tetra(
                         (
@@ -2093,11 +2131,11 @@
                         ),
                     ),
                     Simple(Half),
-                )),// [187]
+                )),// [190]
                 Extra(
                     "dsl::context::duration",
                     "_1_4",
-                ),// [188]
+                ),// [191]
                 Fretted6(Pick(
                     Double(
                         (
@@ -2116,7 +2154,7 @@
                         ),
                     ),
                     Simple(Quarter),
-                )),// [189]
+                )),// [192]
                 Fretted6(Pick(
                     Double(
                         (
@@ -2135,13 +2173,13 @@
                         ),
                     ),
                     Simple(Quarter),
-                )),// [190]
-                Mark("|"),// [191]
-                Mark("c:9"),// [192]
+                )),// [193]
+                Mark("|"),// [194]
+                Mark("c:9"),// [195]
                 Extra(
                     "dsl::context::duration",
                     "_1_2",
-                ),// [193]
+                ),// [196]
                 Fretted6(Pick(
                     Double(
                         (
@@ -2160,7 +2198,7 @@
                         ),
                     ),
                     Simple(Half),
-                )),// [194]
+                )),// [197]
                 Mark("|"),
             ],
         ),// [1]

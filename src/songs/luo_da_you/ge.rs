@@ -21,6 +21,7 @@ pub fn new_tab() -> Tab {
                 "Em" Chord ( 2: 3- 5 )
                 "G" Chord ( 4: 3 5 )
                 "E" Chord ( 2: 3 5 )
+                "A7" Chord [ ( 5: 3 5 7- ) ] |
                 $duration = _1_2
                 "A,A7" Chord [ ( 5: 3 5 ) ( 5: 3 5 7- ) ] |
                 "D,#Fm" Chord [ ( 1: 3 5 ) ( 3: 3- 5 ) ] |
@@ -36,6 +37,7 @@ pub fn new_tab() -> Tab {
                 "Em" Shape ( 0 2 2 0 0 0 )
                 "G" Shape ( 3 2 0 0 0 3 )
                 "E" Shape ( 0 2 2 1 0 0 )
+                "A7" Shape ( 0 0 2 2 2 3 ) |
                 $duration = _1_2
                 "A,A7"
                 "A" Shape ( 0 0 2 2 2 0 )
