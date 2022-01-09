@@ -3230,7 +3230,6 @@
                 )),// [145]
                 Mark("|"),// [146]
                 Mark("c:9"),// [147]
-                Core(Tie),// [148]
                 Core(Tone(
                     Single((
                         octave: P4,
@@ -3240,8 +3239,8 @@
                         ),
                     )),
                     Simple(Half),
-                )),// [149]
-                Core(Rest(Dotted(Quarter))),// [150]
+                )),// [148]
+                Core(Rest(Dotted(Quarter))),// [149]
                 Core(Tone(
                     Single((
                         octave: P3,
@@ -3251,7 +3250,7 @@
                         ),
                     )),
                     Simple(Eighth),
-                )),// [151]
+                )),// [150]
                 Mark("|"),
             ],
         ),// [2]
