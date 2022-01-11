@@ -1,7 +1,7 @@
 #!/usr/bin/env rust-script
 //! ```cargo
 //! [dependencies]
-//! notation_tab = "0.3.3"
+//! notation_tab = "0.3.4"
 //! ```
 
 use notation_tab::prelude::*;
@@ -94,12 +94,12 @@ pub fn new_tab() -> Tab {
                 "v:6" Tone [ 7 ^1, 6, @ 6* _*+ 6, ^1, ] |
                 "v:7_1" Tone [ 7 7+ ^1, 7 @ 7* _ 6 ] |
                 "v:8_1" Tone [ 7*** ] |
-                "v:7_2" Tone [ 7, 7 ^1, ^1 7 3* ^1+ #5, ] |
+                "v:7_2" Tone [ 7, 7 ^1, ^1 7 3* ^1+ 5#, ] |
                 "v:8_2" Tone [ 6*** ] |
                 "c:1" Tone [ ^3** 6*+ ^5 ] |
                 "c:2" Tone [ ^5 ^4 ^4+ ^3, ^4** ] |
                 "c:3" Tone [ ^2** 5*+ ^4 ] |
-                "c:4" Tone [ ^4 ^3 ^3 ^#2 ^3** ] |
+                "c:4" Tone [ ^4 ^3 ^3 ^2# ^3** ] |
                 "c:5" Tone [ ^3** 6*+ ^5, ^5, ] |
                 "c:6" Tone [ ^5 ^4 ^4+ ^3, ^4** ] |
                 "c:7" Tone [ _*+ ^3, ^2, 3*+ 7, 6, ] |
