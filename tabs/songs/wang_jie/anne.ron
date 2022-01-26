@@ -2276,7 +2276,7 @@
                 Core(Rest(Simple(Quarter))),// [2]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Natural,
@@ -2286,7 +2286,7 @@
                 )),// [3]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Natural,
@@ -2296,7 +2296,7 @@
                 )),// [4]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -2306,7 +2306,7 @@
                 )),// [5]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Natural,
@@ -2317,7 +2317,7 @@
                 Core(Tie),// [7]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Natural,
@@ -2327,7 +2327,7 @@
                 )),// [8]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: A,
                             sign: Natural,
@@ -2337,7 +2337,7 @@
                 )),// [9]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -2349,7 +2349,7 @@
                 Mark("v:2"),// [12]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Natural,
@@ -2359,7 +2359,7 @@
                 )),// [13]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -2369,7 +2369,7 @@
                 )),// [14]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: F,
                             sign: Natural,
@@ -2380,7 +2380,7 @@
                 Core(Tie),// [16]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: F,
                             sign: Natural,
@@ -2391,7 +2391,7 @@
                 Core(Rest(Simple(Eighth))),// [18]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -2401,7 +2401,7 @@
                 )),// [19]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Natural,
@@ -2413,7 +2413,7 @@
                 Mark("v:3"),// [22]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: D,
                             sign: Natural,
@@ -2423,7 +2423,7 @@
                 )),// [23]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Natural,
@@ -2433,7 +2433,7 @@
                 )),// [24]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -2443,7 +2443,7 @@
                 )),// [25]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: A,
                             sign: Natural,
@@ -2453,7 +2453,7 @@
                 )),// [26]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: G,
                             sign: Natural,
@@ -2463,7 +2463,7 @@
                 )),// [27]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: D,
                             sign: Natural,
@@ -2473,7 +2473,7 @@
                 )),// [28]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: F,
                             sign: Natural,
@@ -2485,7 +2485,7 @@
                 Mark("v:4"),// [31]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: E,
                             sign: Natural,
@@ -2496,7 +2496,7 @@
                 Core(Rest(Simple(Eighth))),// [33]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: E,
                             sign: Natural,
@@ -2506,7 +2506,7 @@
                 )),// [34]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: G,
                             sign: Natural,
@@ -2518,7 +2518,7 @@
                 Mark("v:5"),// [37]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: F,
                             sign: Natural,
@@ -2528,7 +2528,7 @@
                 )),// [38]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: F,
                             sign: Natural,
@@ -2538,7 +2538,7 @@
                 )),// [39]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: G,
                             sign: Natural,
@@ -2548,7 +2548,7 @@
                 )),// [40]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: A,
                             sign: Natural,
@@ -2558,7 +2558,7 @@
                 )),// [41]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: D,
                             sign: Natural,
@@ -2568,7 +2568,7 @@
                 )),// [42]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Natural,
@@ -2580,7 +2580,7 @@
                 Mark("v:6"),// [45]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -2590,7 +2590,7 @@
                 )),// [46]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Natural,
@@ -2600,7 +2600,7 @@
                 )),// [47]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: A,
                             sign: Natural,
@@ -2611,7 +2611,7 @@
                 Core(Tie),// [49]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: A,
                             sign: Natural,
@@ -2622,7 +2622,7 @@
                 Core(Rest(Dotted(Quarter))),// [51]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: A,
                             sign: Natural,
@@ -2632,7 +2632,7 @@
                 )),// [52]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Natural,
@@ -2644,7 +2644,7 @@
                 Mark("v:7_1"),// [55]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -2654,7 +2654,7 @@
                 )),// [56]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -2664,7 +2664,7 @@
                 )),// [57]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Natural,
@@ -2674,7 +2674,7 @@
                 )),// [58]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -2685,7 +2685,7 @@
                 Core(Tie),// [60]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -2696,7 +2696,7 @@
                 Core(Rest(Simple(Eighth))),// [62]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: A,
                             sign: Natural,
@@ -2708,7 +2708,7 @@
                 Mark("v:8_1"),// [65]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -2720,7 +2720,7 @@
                 Mark("v:7_2"),// [68]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -2730,7 +2730,7 @@
                 )),// [69]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -2740,7 +2740,7 @@
                 )),// [70]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Natural,
@@ -2750,7 +2750,7 @@
                 )),// [71]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Natural,
@@ -2760,7 +2760,7 @@
                 )),// [72]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -2770,7 +2770,7 @@
                 )),// [73]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: E,
                             sign: Natural,
@@ -2780,7 +2780,7 @@
                 )),// [74]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Natural,
@@ -2790,7 +2790,7 @@
                 )),// [75]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: G,
                             sign: Sharp,
@@ -2802,7 +2802,7 @@
                 Mark("v:8_2"),// [78]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: A,
                             sign: Natural,
@@ -2814,7 +2814,7 @@
                 Mark("c:1"),// [81]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: E,
                             sign: Natural,
@@ -2824,7 +2824,7 @@
                 )),// [82]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: A,
                             sign: Natural,
@@ -2834,7 +2834,7 @@
                 )),// [83]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: G,
                             sign: Natural,
@@ -2846,7 +2846,7 @@
                 Mark("c:2"),// [86]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: G,
                             sign: Natural,
@@ -2856,7 +2856,7 @@
                 )),// [87]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: F,
                             sign: Natural,
@@ -2866,7 +2866,7 @@
                 )),// [88]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: F,
                             sign: Natural,
@@ -2876,7 +2876,7 @@
                 )),// [89]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: E,
                             sign: Natural,
@@ -2886,7 +2886,7 @@
                 )),// [90]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: F,
                             sign: Natural,
@@ -2898,7 +2898,7 @@
                 Mark("c:3"),// [93]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: D,
                             sign: Natural,
@@ -2908,7 +2908,7 @@
                 )),// [94]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: G,
                             sign: Natural,
@@ -2918,7 +2918,7 @@
                 )),// [95]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: F,
                             sign: Natural,
@@ -2930,7 +2930,7 @@
                 Mark("c:4"),// [98]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: F,
                             sign: Natural,
@@ -2940,7 +2940,7 @@
                 )),// [99]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: E,
                             sign: Natural,
@@ -2950,7 +2950,7 @@
                 )),// [100]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: E,
                             sign: Natural,
@@ -2960,7 +2960,7 @@
                 )),// [101]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: D,
                             sign: Sharp,
@@ -2970,7 +2970,7 @@
                 )),// [102]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: E,
                             sign: Natural,
@@ -2982,7 +2982,7 @@
                 Mark("c:5"),// [105]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: E,
                             sign: Natural,
@@ -2992,7 +2992,7 @@
                 )),// [106]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: A,
                             sign: Natural,
@@ -3002,7 +3002,7 @@
                 )),// [107]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: G,
                             sign: Natural,
@@ -3012,7 +3012,7 @@
                 )),// [108]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: G,
                             sign: Natural,
@@ -3024,7 +3024,7 @@
                 Mark("c:6"),// [111]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: G,
                             sign: Natural,
@@ -3034,7 +3034,7 @@
                 )),// [112]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: F,
                             sign: Natural,
@@ -3044,7 +3044,7 @@
                 )),// [113]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: F,
                             sign: Natural,
@@ -3054,7 +3054,7 @@
                 )),// [114]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: E,
                             sign: Natural,
@@ -3064,7 +3064,7 @@
                 )),// [115]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: F,
                             sign: Natural,
@@ -3077,7 +3077,7 @@
                 Core(Rest(Dotted(Quarter))),// [119]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: E,
                             sign: Natural,
@@ -3087,7 +3087,7 @@
                 )),// [120]
                 Core(Tone(
                     Single((
-                        octave: P6,
+                        octave: P5,
                         pitch: (
                             name: D,
                             sign: Natural,
@@ -3097,7 +3097,7 @@
                 )),// [121]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: E,
                             sign: Natural,
@@ -3107,7 +3107,7 @@
                 )),// [122]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: B,
                             sign: Natural,
@@ -3117,7 +3117,7 @@
                 )),// [123]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: A,
                             sign: Natural,
@@ -3129,7 +3129,7 @@
                 Mark("c:8"),// [126]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P4,
                         pitch: (
                             name: A,
                             sign: Natural,
