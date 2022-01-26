@@ -167,48 +167,12 @@
                 Fretted6(Fretboard((
                     total_fret_num: 20,
                     string_notes: (
-                        (
-                            octave: P4,
-                            pitch: (
-                                name: E,
-                                sign: Natural,
-                            ),
-                        ),
-                        (
-                            octave: P3,
-                            pitch: (
-                                name: B,
-                                sign: Natural,
-                            ),
-                        ),
-                        (
-                            octave: P3,
-                            pitch: (
-                                name: G,
-                                sign: Natural,
-                            ),
-                        ),
-                        (
-                            octave: P3,
-                            pitch: (
-                                name: D,
-                                sign: Natural,
-                            ),
-                        ),
-                        (
-                            octave: P2,
-                            pitch: (
-                                name: A,
-                                sign: Natural,
-                            ),
-                        ),
-                        (
-                            octave: P2,
-                            pitch: (
-                                name: E,
-                                sign: Natural,
-                            ),
-                        ),
+                        (52),
+                        (47),
+                        (43),
+                        (38),
+                        (33),
+                        (28),
                     ),
                     capo: 0,
                 ))),// [0]
@@ -2276,72 +2240,79 @@
                 Core(Rest(Simple(Quarter))),// [2]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: C,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Sixteenth),
                 )),// [3]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: C,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Sixteenth),
                 )),// [4]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Sixteenth),
                 )),// [5]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: C,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Sixteenth),
                 )),// [6]
                 Core(Tie),// [7]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: C,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Dotted(Quarter),
                 )),// [8]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Sixteenth),
                 )),// [9]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Sixteenth),
                 )),// [10]
@@ -2349,63 +2320,69 @@
                 Mark("v:2"),// [12]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: C,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Eighth),
                 )),// [13]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Sixteenth),
                 )),// [14]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: F,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Sixteenth),
                 )),// [15]
                 Core(Tie),// [16]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: F,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Half),
                 )),// [17]
                 Core(Rest(Simple(Eighth))),// [18]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Sixteenth),
                 )),// [19]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: C,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Sixteenth),
                 )),// [20]
@@ -2413,71 +2390,78 @@
                 Mark("v:3"),// [22]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: D,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Dotted(Quarter),
                 )),// [23]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: C,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Sixteenth),
                 )),// [24]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Sixteenth),
                 )),// [25]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Eighth),
                 )),// [26]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Quarter),
                 )),// [27]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: D,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Sixteenth),
                 )),// [28]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: F,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Sixteenth),
                 )),// [29]
@@ -2485,32 +2469,35 @@
                 Mark("v:4"),// [31]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Mi,
                     )),
                     Dotted(Half),
                 )),// [32]
                 Core(Rest(Simple(Eighth))),// [33]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Sixteenth),
                 )),// [34]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Sixteenth),
                 )),// [35]
@@ -2518,61 +2505,67 @@
                 Mark("v:5"),// [37]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: F,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Dotted(Quarter),
                 )),// [38]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: F,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Sixteenth),
                 )),// [39]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Sixteenth),
                 )),// [40]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Dotted(Quarter),
                 )),// [41]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: D,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Sixteenth),
                 )),// [42]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: C,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Sixteenth),
                 )),// [43]
@@ -2580,63 +2573,69 @@
                 Mark("v:6"),// [45]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Eighth),
                 )),// [46]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: C,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Sixteenth),
                 )),// [47]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Sixteenth),
                 )),// [48]
                 Core(Tie),// [49]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Quarter),
                 )),// [50]
                 Core(Rest(Dotted(Quarter))),// [51]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Sixteenth),
                 )),// [52]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: C,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Sixteenth),
                 )),// [53]
@@ -2644,63 +2643,69 @@
                 Mark("v:7_1"),// [55]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Eighth),
                 )),// [56]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Dotted(Eighth),
                 )),// [57]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: C,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Sixteenth),
                 )),// [58]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Eighth),
                 )),// [59]
                 Core(Tie),// [60]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Quarter),
                 )),// [61]
                 Core(Rest(Simple(Eighth))),// [62]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Eighth),
                 )),// [63]
@@ -2708,11 +2713,12 @@
                 Mark("v:8_1"),// [65]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Whole),
                 )),// [66]
@@ -2720,81 +2726,89 @@
                 Mark("v:7_2"),// [68]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Sixteenth),
                 )),// [69]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Eighth),
                 )),// [70]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: C,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Sixteenth),
                 )),// [71]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: C,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Eighth),
                 )),// [72]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Eighth),
                 )),// [73]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Quarter),
                 )),// [74]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: C,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Dotted(Eighth),
                 )),// [75]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: G,
                             sign: Sharp,
                         ),
+                        syllable: Si,
                     )),
                     Simple(Sixteenth),
                 )),// [76]
@@ -2802,11 +2816,12 @@
                 Mark("v:8_2"),// [78]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Whole),
                 )),// [79]
@@ -2814,31 +2829,34 @@
                 Mark("c:1"),// [81]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Half),
                 )),// [82]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Dotted(Quarter),
                 )),// [83]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [84]
@@ -2846,51 +2864,56 @@
                 Mark("c:2"),// [86]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [87]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: F,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Eighth),
                 )),// [88]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: F,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Dotted(Eighth),
                 )),// [89]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Sixteenth),
                 )),// [90]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: F,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Half),
                 )),// [91]
@@ -2898,31 +2921,34 @@
                 Mark("c:3"),// [93]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: D,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Half),
                 )),// [94]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Dotted(Quarter),
                 )),// [95]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: F,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Eighth),
                 )),// [96]
@@ -2930,51 +2956,56 @@
                 Mark("c:4"),// [98]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: F,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Eighth),
                 )),// [99]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [100]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [101]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: D,
                             sign: Sharp,
                         ),
+                        syllable: Ri,
                     )),
                     Simple(Eighth),
                 )),// [102]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Half),
                 )),// [103]
@@ -2982,41 +3013,45 @@
                 Mark("c:5"),// [105]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Half),
                 )),// [106]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Dotted(Quarter),
                 )),// [107]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Sixteenth),
                 )),// [108]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Sixteenth),
                 )),// [109]
@@ -3024,51 +3059,56 @@
                 Mark("c:6"),// [111]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [112]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: F,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Eighth),
                 )),// [113]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: F,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Dotted(Eighth),
                 )),// [114]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Sixteenth),
                 )),// [115]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: F,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Half),
                 )),// [116]
@@ -3077,51 +3117,56 @@
                 Core(Rest(Dotted(Quarter))),// [119]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Sixteenth),
                 )),// [120]
                 Core(Tone(
                     Single((
-                        octave: P5,
+                        octave: P6,
                         pitch: (
                             name: D,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Sixteenth),
                 )),// [121]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Mi,
                     )),
                     Dotted(Quarter),
                 )),// [122]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Sixteenth),
                 )),// [123]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Sixteenth),
                 )),// [124]
@@ -3129,11 +3174,12 @@
                 Mark("c:8"),// [126]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Whole),
                 )),// [127]

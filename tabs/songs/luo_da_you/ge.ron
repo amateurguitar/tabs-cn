@@ -243,48 +243,12 @@
                 Fretted6(Fretboard((
                     total_fret_num: 20,
                     string_notes: (
-                        (
-                            octave: P4,
-                            pitch: (
-                                name: E,
-                                sign: Natural,
-                            ),
-                        ),
-                        (
-                            octave: P3,
-                            pitch: (
-                                name: B,
-                                sign: Natural,
-                            ),
-                        ),
-                        (
-                            octave: P3,
-                            pitch: (
-                                name: G,
-                                sign: Natural,
-                            ),
-                        ),
-                        (
-                            octave: P3,
-                            pitch: (
-                                name: D,
-                                sign: Natural,
-                            ),
-                        ),
-                        (
-                            octave: P2,
-                            pitch: (
-                                name: A,
-                                sign: Natural,
-                            ),
-                        ),
-                        (
-                            octave: P2,
-                            pitch: (
-                                name: E,
-                                sign: Natural,
-                            ),
-                        ),
+                        (52),
+                        (47),
+                        (43),
+                        (38),
+                        (33),
+                        (28),
                     ),
                     capo: 0,
                 ))),// [0]
@@ -2220,6 +2184,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [4]
@@ -2234,6 +2199,7 @@
                             name: D,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Eighth),
                 )),// [9]
@@ -2246,6 +2212,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [12]
@@ -2256,6 +2223,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [13]
@@ -2266,6 +2234,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [14]
@@ -2276,6 +2245,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [15]
@@ -2286,6 +2256,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Quarter),
                 )),// [16]
@@ -2296,6 +2267,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Quarter),
                 )),// [17]
@@ -2308,6 +2280,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Quarter),
                 )),// [20]
@@ -2318,6 +2291,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [21]
@@ -2328,6 +2302,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [22]
@@ -2338,6 +2313,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [23]
@@ -2348,6 +2324,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [24]
@@ -2358,6 +2335,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [25]
@@ -2368,6 +2346,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [26]
@@ -2380,6 +2359,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Quarter),
                 )),// [29]
@@ -2390,6 +2370,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Quarter),
                 )),// [30]
@@ -2401,6 +2382,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [32]
@@ -2411,6 +2393,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [33]
@@ -2421,6 +2404,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [34]
@@ -2433,6 +2417,7 @@
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Eighth),
                 )),// [37]
@@ -2443,6 +2428,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [38]
@@ -2453,6 +2439,7 @@
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Eighth),
                 )),// [39]
@@ -2463,6 +2450,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [40]
@@ -2473,6 +2461,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Quarter),
                 )),// [41]
@@ -2484,6 +2473,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [43]
@@ -2496,6 +2486,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Eighth),
                 )),// [46]
@@ -2506,6 +2497,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Eighth),
                 )),// [47]
@@ -2516,6 +2508,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Eighth),
                 )),// [48]
@@ -2526,6 +2519,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Eighth),
                 )),// [49]
@@ -2536,6 +2530,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Quarter),
                 )),// [50]
@@ -2546,6 +2541,7 @@
                             name: D,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Dotted(Eighth),
                 )),// [51]
@@ -2556,6 +2552,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Sixteenth),
                 )),// [52]
@@ -2568,6 +2565,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Quarter),
                 )),// [55]
@@ -2578,26 +2576,29 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Quarter),
                 )),// [56]
                 Core(Tone(
                     Single((
-                        octave: P3,
+                        octave: P4,
                         pitch: (
                             name: C,
                             sign: Sharp,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Eighth),
                 )),// [57]
                 Core(Tone(
                     Single((
-                        octave: P3,
+                        octave: P4,
                         pitch: (
                             name: C,
                             sign: Sharp,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Eighth),
                 )),// [58]
@@ -2608,16 +2609,18 @@
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Sixteenth),
                 )),// [59]
                 Core(Tone(
                     Single((
-                        octave: P3,
+                        octave: P4,
                         pitch: (
                             name: C,
                             sign: Sharp,
                         ),
+                        syllable: Ti,
                     )),
                     Dotted(Eighth),
                 )),// [60]
@@ -2630,6 +2633,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Eighth),
                 )),// [63]
@@ -2640,6 +2644,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Eighth),
                 )),// [64]
@@ -2650,6 +2655,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Eighth),
                 )),// [65]
@@ -2660,6 +2666,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Eighth),
                 )),// [66]
@@ -2670,6 +2677,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Eighth),
                 )),// [67]
@@ -2680,6 +2688,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Eighth),
                 )),// [68]
@@ -2690,6 +2699,7 @@
                             name: D,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Eighth),
                 )),// [69]
@@ -2700,6 +2710,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Eighth),
                 )),// [70]
@@ -2712,6 +2723,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Dotted(Half),
                 )),// [73]
@@ -2723,6 +2735,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [75]
@@ -2735,6 +2748,7 @@
                             name: D,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Dotted(Half),
                 )),// [78]
@@ -2746,6 +2760,7 @@
                             name: D,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Eighth),
                 )),// [80]
@@ -2758,6 +2773,7 @@
                             name: D,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Whole),
                 )),// [83]
@@ -2770,6 +2786,7 @@
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Dotted(Quarter),
                 )),// [86]
@@ -2780,6 +2797,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [87]
@@ -2790,6 +2808,7 @@
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Quarter),
                 )),// [88]
@@ -2800,6 +2819,7 @@
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Quarter),
                 )),// [89]
@@ -2812,6 +2832,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [92]
@@ -2822,6 +2843,7 @@
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Eighth),
                 )),// [93]
@@ -2832,6 +2854,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [94]
@@ -2842,6 +2865,7 @@
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Eighth),
                 )),// [95]
@@ -2852,6 +2876,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Quarter),
                 )),// [96]
@@ -2862,6 +2887,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Quarter),
                 )),// [97]
@@ -2874,6 +2900,7 @@
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Dotted(Eighth),
                 )),// [100]
@@ -2884,6 +2911,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Sixteenth),
                 )),// [101]
@@ -2894,6 +2922,7 @@
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Eighth),
                 )),// [102]
@@ -2904,6 +2933,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [103]
@@ -2914,16 +2944,18 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Dotted(Quarter),
                 )),// [104]
                 Core(Tone(
                     Single((
-                        octave: P3,
+                        octave: P4,
                         pitch: (
                             name: C,
                             sign: Sharp,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Eighth),
                 )),// [105]
@@ -2936,6 +2968,7 @@
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Dotted(Eighth),
                 )),// [108]
@@ -2946,6 +2979,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Sixteenth),
                 )),// [109]
@@ -2956,6 +2990,7 @@
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Eighth),
                 )),// [110]
@@ -2966,6 +3001,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [111]
@@ -2976,26 +3012,29 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Quarter),
                 )),// [112]
                 Core(Tone(
                     Single((
-                        octave: P3,
+                        octave: P4,
                         pitch: (
                             name: C,
                             sign: Sharp,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Eighth),
                 )),// [113]
                 Core(Tone(
                     Single((
-                        octave: P3,
+                        octave: P4,
                         pitch: (
                             name: C,
                             sign: Sharp,
                         ),
+                        syllable: Ti,
                     )),
                     Simple(Eighth),
                 )),// [114]
@@ -3008,6 +3047,7 @@
                             name: D,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Eighth),
                 )),// [117]
@@ -3018,6 +3058,7 @@
                             name: D,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Eighth),
                 )),// [118]
@@ -3028,6 +3069,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Quarter),
                 )),// [119]
@@ -3038,6 +3080,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Quarter),
                 )),// [120]
@@ -3049,6 +3092,7 @@
                             name: D,
                             sign: Natural,
                         ),
+                        syllable: Do,
                     )),
                     Simple(Eighth),
                 )),// [122]
@@ -3061,6 +3105,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [125]
@@ -3071,6 +3116,7 @@
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Eighth),
                 )),// [126]
@@ -3081,6 +3127,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [127]
@@ -3091,6 +3138,7 @@
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Eighth),
                 )),// [128]
@@ -3101,6 +3149,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Quarter),
                 )),// [129]
@@ -3111,6 +3160,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Dotted(Eighth),
                 )),// [130]
@@ -3121,6 +3171,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Sixteenth),
                 )),// [131]
@@ -3133,6 +3184,7 @@
                             name: G,
                             sign: Sharp,
                         ),
+                        syllable: Fi,
                     )),
                     Simple(Eighth),
                 )),// [134]
@@ -3143,6 +3195,7 @@
                             name: F,
                             sign: Sharp,
                         ),
+                        syllable: Mi,
                     )),
                     Simple(Eighth),
                 )),// [135]
@@ -3153,6 +3206,7 @@
                             name: G,
                             sign: Sharp,
                         ),
+                        syllable: Fi,
                     )),
                     Simple(Eighth),
                 )),// [136]
@@ -3163,6 +3217,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [137]
@@ -3173,6 +3228,7 @@
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Quarter),
                 )),// [138]
@@ -3183,6 +3239,7 @@
                             name: E,
                             sign: Natural,
                         ),
+                        syllable: Re,
                     )),
                     Simple(Quarter),
                 )),// [139]
@@ -3190,11 +3247,12 @@
                 Mark("c:8"),// [141]
                 Core(Tone(
                     Single((
-                        octave: P4,
+                        octave: P5,
                         pitch: (
                             name: C,
                             sign: Sharp,
                         ),
+                        syllable: Ti,
                     )),
                     Dotted(Quarter),
                 )),// [142]
@@ -3205,6 +3263,7 @@
                             name: B,
                             sign: Natural,
                         ),
+                        syllable: La,
                     )),
                     Simple(Eighth),
                 )),// [143]
@@ -3215,6 +3274,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Quarter),
                 )),// [144]
@@ -3225,6 +3285,7 @@
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Quarter),
                 )),// [145]
@@ -3237,6 +3298,7 @@
                             name: G,
                             sign: Natural,
                         ),
+                        syllable: Fa,
                     )),
                     Simple(Half),
                 )),// [148]
@@ -3248,6 +3310,7 @@
                             name: A,
                             sign: Natural,
                         ),
+                        syllable: So,
                     )),
                     Simple(Eighth),
                 )),// [150]
