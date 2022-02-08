@@ -1,0 +1,981 @@
+(
+    uuid: "dbb0e1e4-b9ce-4b40-a6b2-641fc9f15940",
+    meta: (
+        key: Natural(G),
+        scale: Ionian,
+        signature: (
+            beat_unit: Quarter,
+            bar_beats: 4,
+        ),
+        tempo: Bpm(80),
+    ),
+    tracks: [
+        (
+            id: "chord",
+            kind: Chord,
+            entries: [
+                Extra(
+                    "dsl::context::duration",
+                    "_1",
+                ),// [0]
+                Mark("1"),// [1]
+                Core(Chord(
+                    (
+                        root: Do,
+                        intervals: Dyad(Unison),
+                        bass: None,
+                    ),
+                    Simple(Whole),
+                )),
+            ],
+        ),// [0]
+        (
+            id: "vocal",
+            kind: Vocal,
+            entries: [
+                Extra(
+                    "dsl::context::octave",
+                    "P3",
+                ),// [0]
+                Extra(
+                    "dsl::context::duration",
+                    "_1_4",
+                ),// [1]
+                Mark("a1"),// [2]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: D,
+                            sign: Natural,
+                        ),
+                        syllable: So,
+                    )),
+                    Simple(Quarter),
+                )),// [3]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: B,
+                            sign: Natural,
+                        ),
+                        syllable: Mi,
+                    )),
+                    Simple(Eighth),
+                )),// [4]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: D,
+                            sign: Natural,
+                        ),
+                        syllable: So,
+                    )),
+                    Simple(Eighth),
+                )),// [5]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: G,
+                            sign: Natural,
+                        ),
+                        syllable: Do,
+                    )),
+                    Simple(Half),
+                )),// [6]
+                Mark("|"),// [7]
+                Mark("a2"),// [8]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: E,
+                            sign: Natural,
+                        ),
+                        syllable: La,
+                    )),
+                    Simple(Quarter),
+                )),// [9]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: G,
+                            sign: Natural,
+                        ),
+                        syllable: Do,
+                    )),
+                    Simple(Eighth),
+                )),// [10]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: E,
+                            sign: Natural,
+                        ),
+                        syllable: La,
+                    )),
+                    Simple(Eighth),
+                )),// [11]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: D,
+                            sign: Natural,
+                        ),
+                        syllable: So,
+                    )),
+                    Simple(Half),
+                )),// [12]
+                Mark("|"),// [13]
+                Mark("a3"),// [14]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: D,
+                            sign: Natural,
+                        ),
+                        syllable: So,
+                    )),
+                    Simple(Quarter),
+                )),// [15]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: G,
+                            sign: Natural,
+                        ),
+                        syllable: Do,
+                    )),
+                    Simple(Eighth),
+                )),// [16]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: A,
+                            sign: Natural,
+                        ),
+                        syllable: Re,
+                    )),
+                    Simple(Eighth),
+                )),// [17]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: B,
+                            sign: Natural,
+                        ),
+                        syllable: Mi,
+                    )),
+                    Simple(Quarter),
+                )),// [18]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: A,
+                            sign: Natural,
+                        ),
+                        syllable: Re,
+                    )),
+                    Simple(Eighth),
+                )),// [19]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: G,
+                            sign: Natural,
+                        ),
+                        syllable: Do,
+                    )),
+                    Simple(Eighth),
+                )),// [20]
+                Mark("|"),// [21]
+                Mark("a4"),// [22]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: A,
+                            sign: Natural,
+                        ),
+                        syllable: Re,
+                    )),
+                    Dotted(Half),
+                )),// [23]
+                Core(Rest(Simple(Quarter))),// [24]
+                Mark("|"),// [25]
+                Mark("a5"),// [26]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: D,
+                            sign: Natural,
+                        ),
+                        syllable: So,
+                    )),
+                    Simple(Quarter),
+                )),// [27]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: B,
+                            sign: Natural,
+                        ),
+                        syllable: Mi,
+                    )),
+                    Simple(Eighth),
+                )),// [28]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: D,
+                            sign: Natural,
+                        ),
+                        syllable: So,
+                    )),
+                    Simple(Eighth),
+                )),// [29]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: G,
+                            sign: Natural,
+                        ),
+                        syllable: Do,
+                    )),
+                    Dotted(Quarter),
+                )),// [30]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: F,
+                            sign: Sharp,
+                        ),
+                        syllable: Ti,
+                    )),
+                    Simple(Eighth),
+                )),// [31]
+                Mark("|"),// [32]
+                Mark("a6"),// [33]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: E,
+                            sign: Natural,
+                        ),
+                        syllable: La,
+                    )),
+                    Simple(Quarter),
+                )),// [34]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: G,
+                            sign: Natural,
+                        ),
+                        syllable: Do,
+                    )),
+                    Simple(Quarter),
+                )),// [35]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: D,
+                            sign: Natural,
+                        ),
+                        syllable: So,
+                    )),
+                    Simple(Half),
+                )),// [36]
+                Mark("|"),// [37]
+                Mark("a7"),// [38]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: D,
+                            sign: Natural,
+                        ),
+                        syllable: So,
+                    )),
+                    Simple(Quarter),
+                )),// [39]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: A,
+                            sign: Natural,
+                        ),
+                        syllable: Re,
+                    )),
+                    Simple(Eighth),
+                )),// [40]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: B,
+                            sign: Natural,
+                        ),
+                        syllable: Mi,
+                    )),
+                    Simple(Eighth),
+                )),// [41]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: C,
+                            sign: Natural,
+                        ),
+                        syllable: Fa,
+                    )),
+                    Dotted(Quarter),
+                )),// [42]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: F,
+                            sign: Sharp,
+                        ),
+                        syllable: Ti,
+                    )),
+                    Simple(Eighth),
+                )),// [43]
+                Mark("|"),// [44]
+                Mark("a8"),// [45]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: G,
+                            sign: Natural,
+                        ),
+                        syllable: Do,
+                    )),
+                    Dotted(Half),
+                )),// [46]
+                Core(Rest(Simple(Quarter))),// [47]
+                Mark("|"),// [48]
+                Mark("b1"),// [49]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: E,
+                            sign: Natural,
+                        ),
+                        syllable: La,
+                    )),
+                    Simple(Quarter),
+                )),// [50]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: G,
+                            sign: Natural,
+                        ),
+                        syllable: Do,
+                    )),
+                    Simple(Quarter),
+                )),// [51]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: G,
+                            sign: Natural,
+                        ),
+                        syllable: Do,
+                    )),
+                    Simple(Half),
+                )),// [52]
+                Mark("|"),// [53]
+                Mark("b2"),// [54]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: F,
+                            sign: Sharp,
+                        ),
+                        syllable: Ti,
+                    )),
+                    Simple(Quarter),
+                )),// [55]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: E,
+                            sign: Natural,
+                        ),
+                        syllable: La,
+                    )),
+                    Simple(Eighth),
+                )),// [56]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: F,
+                            sign: Sharp,
+                        ),
+                        syllable: Ti,
+                    )),
+                    Simple(Eighth),
+                )),// [57]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: G,
+                            sign: Natural,
+                        ),
+                        syllable: Do,
+                    )),
+                    Simple(Half),
+                )),// [58]
+                Mark("|"),// [59]
+                Extra(
+                    "dsl::context::duration",
+                    "_1_8",
+                ),// [60]
+                Mark("b3"),// [61]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: E,
+                            sign: Natural,
+                        ),
+                        syllable: La,
+                    )),
+                    Simple(Eighth),
+                )),// [62]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: F,
+                            sign: Sharp,
+                        ),
+                        syllable: Ti,
+                    )),
+                    Simple(Eighth),
+                )),// [63]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: G,
+                            sign: Natural,
+                        ),
+                        syllable: Do,
+                    )),
+                    Simple(Eighth),
+                )),// [64]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: E,
+                            sign: Natural,
+                        ),
+                        syllable: La,
+                    )),
+                    Simple(Eighth),
+                )),// [65]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: E,
+                            sign: Natural,
+                        ),
+                        syllable: La,
+                    )),
+                    Simple(Eighth),
+                )),// [66]
+                Core(Tone(
+                    Single((
+                        octave: P4,
+                        pitch: (
+                            name: D,
+                            sign: Natural,
+                        ),
+                        syllable: So,
+                    )),
+                    Simple(Eighth),
+                )),// [67]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: B,
+                            sign: Natural,
+                        ),
+                        syllable: Mi,
+                    )),
+                    Simple(Eighth),
+                )),// [68]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: G,
+                            sign: Natural,
+                        ),
+                        syllable: Do,
+                    )),
+                    Simple(Eighth),
+                )),// [69]
+                Mark("|"),// [70]
+                Extra(
+                    "dsl::context::duration",
+                    "_1_4",
+                ),// [71]
+                Mark("b4"),// [72]
+                Core(Tone(
+                    Single((
+                        octave: P3,
+                        pitch: (
+                            name: A,
+                            sign: Natural,
+                        ),
+                        syllable: Re,
+                    )),
+                    Dotted(Half),
+                )),// [73]
+                Core(Rest(Simple(Quarter))),// [74]
+                Mark("|"),
+            ],
+        ),
+    ],
+    sections: [
+        (
+            id: "a",
+            kind: Verse,
+            bars: [
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("a1"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),// [0]
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("a2"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),// [1]
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("a3"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),// [2]
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("a4"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),// [3]
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("a5"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),// [4]
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("a6"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),// [5]
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("a7"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),// [6]
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("a8"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),
+            ],
+        ),// [0]
+        (
+            id: "b",
+            kind: Verse,
+            bars: [
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("b1"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),// [0]
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("b2"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),// [1]
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("b3"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),// [2]
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("b4"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),// [3]
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("a5"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),// [4]
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("a6"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),// [5]
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("a7"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),// [6]
+                (
+                    layers: [
+                        (
+                            track: "chord",
+                            slices: [
+                                (
+                                    begin: Mark("1"),
+                                    end: Count(1),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),// [0]
+                        (
+                            track: "vocal",
+                            slices: [
+                                (
+                                    begin: Mark("a8"),
+                                    end: Mark("|"),
+                                    rounds: None,
+                                ),
+                            ],
+                        ),
+                    ],
+                ),
+            ],
+        ),
+    ],
+    form: (
+        sections: [
+            "a",// [0]
+            "b",
+        ],
+    ),
+)
