@@ -8,6 +8,7 @@ pub fn main() {
     write_tab(&drafts::song_bie::new_tab(), "tabs/drafts/song_bie.ron");
     write_tab(&drafts::xiao_cheng_gu_shi::new_tab(), "tabs/drafts/xiao_cheng_gu_shi.ron");
     write_tab(&drafts::xia_ri_li_zui_hou_de_mei_gui::new_tab(), "tabs/drafts/xia_ri_li_zui_hou_de_mei_gui.ron");
+    write_tab(&drafts::close_to_you::new_tab(), "tabs/drafts/close_to_you.ron");
     //songs
     write_tab(&songs::pu_shu::bai_hua_lin::new_tab(), "tabs/songs/pu_shu/bai_hua_lin.ron");
     write_tab(&songs::jay::long_juan_feng::new_tab(), "tabs/songs/jay/long_juan_feng.ron");
